@@ -6,4 +6,4 @@ int main () {
     cin >> num;
     cout << "You entered: " << num;
     return 0;
-}
+} 
