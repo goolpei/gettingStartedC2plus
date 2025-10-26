@@ -6,7 +6,9 @@ int main(){
     //cout << hello + " World!";
     string num = "1";
     cout << num + "Hello" << endl;
-    cout << 1 + "Hello";
+    cout << 1 + "Hello" << endl;
+
+    cout << "Hello" + num << endl;
     //cout << string("Hello") + "1";
     //cout << "I" + "K" ;  (not allowed)
 
