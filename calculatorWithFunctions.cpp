@@ -20,16 +20,17 @@ int main(){
 
     while(true){
 
-        while (true)
-        {
-        cout << "Enter first number: ";
-        cin >> num1;
-        if (cin.fail()){
-        cin.clear();
-        cin.ignore(1000, '\n');
-        cout << "Invalid input, please enter a number." << endl;
-        continue;
-        } else{break;}
+        while (true) {
+            cout << "Enter first number: ";
+            cin >> num1;
+            if (cin.fail()){
+                cin.clear();
+                cin.ignore(1000, '\n');
+                cout << "Invalid input, please enter a number." << endl;
+                continue;
+            } else{
+                break;
+            }
         }
 
         while (true)
