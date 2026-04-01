@@ -95,11 +95,11 @@ int main(){
     
     Boss boss1 = Boss("Armageddon", 1000, 20);
    
-    Entity* dungeonEntitieas[4];
+    Entity* dungeonEntities[4];
 
 
-    dungeonEntitieas[0] = &player1;
-    dungeonEntitieas[1] = &boss1;
+    dungeonEntities[0] = &player1;
+    dungeonEntities[1] = &boss1;
 
     battle(&player1, &boss1);
 
